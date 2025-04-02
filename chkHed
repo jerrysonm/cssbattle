@@ -1,0 +1,97 @@
+ <!doctype html>
+<html>
+  <head>
+    <title>Document title</title>
+  </head>
+  <body> 
+    <div class='body2'>
+      <div class='redHed'>
+        <div class='uno'></div>
+        <div class='dos'></div>
+        <div class='tres'></div>
+      </div>
+      <div class='hedArs'>
+        <div class='chckHed'><div class='iOfTigre'></div></div>
+        <div class='bk'></div>
+    </div>
+</div>
+  </body>
+</html>
+
+   
+<style>
+  body{
+    background:#282828;
+    display:flex;
+    justify-content:center;
+    padding-top:40px;
+  }
+  
+  .redHed{
+    width:130;
+    display:flex;
+    justify-content:space-evenly;
+    
+  }
+
+  .uno{
+    margin-top:25px;
+    background-color:#EA3323;
+    height:5px;
+    width:10px;
+    border-top-left-radius:70%;
+    border-top-right-radius:70%;
+  }
+
+  .dos{
+    margin-top:20px;
+    background-color:#EA3323;
+    height:10px;
+    width:20px;
+    border-top-left-radius:70%;
+    border-top-right-radius:70%;
+  }
+
+  .tres{
+    margin-top:10px;
+    background-color:#EA3323;
+    height:20px;
+    width:30px;
+    border-top-left-radius:70%;
+    border-top-right-radius:70%;
+  }  
+
+  .hedArs{
+    position:absolute;
+    display:flex;
+    justify-content:space-evenly;
+  }
+
+  .chckHed{
+    background-color:#FFFFFF;
+    height:140px;
+    width:140px;
+    border-radius:20px;
+    display:flex;
+    justify-content:center;
+  }
+
+  .iOfTigre{
+    background-color:black;
+    height:30px;
+    width:15px;
+    margin-top:30px;
+    margin-left:85px;
+    border-radius:70%;
+  }
+
+  .bk{
+    margin-top:30px;
+    width: 0;
+    height: 0;
+    border-left: 40px solid #F2A73B; 
+    border-right: 40px solid transparent; 
+    border-top: 40px solid transparent; 
+    border-bottom:40px solid transparent;
+  }
+</style>
