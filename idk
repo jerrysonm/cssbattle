@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+</head>
+<body>
+  <div class='frst'></div>
+  <div class='scnd'></div>
+  <div class='thrd'></div>
+  <div class='frth'></div>
+</body>
+</html>
+
+<style>
+  body{
+    background:#F5E3B5;
+    display:flex;
+    justify-content:center;
+    margin-top:110px;
+    margin-left:80 
+  }
+
+  .frst{
+    background-color:#469DBA;
+    height:80px;
+    width:80px;
+    border-radius:70%;
+    margin-right:-30px;
+  }
+
+  .scnd{
+    background-color:#469DBA;
+    height:120px;
+    width:180px;
+    margin-top:-20px;
+  }
+
+  .thrd{
+    background-color:#F5E3B5;
+    height:80px;
+    width:80px;
+    border-radius:70%;
+    margin-left:-40px;
+  }
+
+  .frth{
+    background-color:#469DBA;
+    height:40px;
+    width:150px;
+    border-top-left-radius:70px;
+    border-bottom-left-radius:70px;
+    margin-top:20px;
+    margin-left:-50px;
+  }
+</style>
