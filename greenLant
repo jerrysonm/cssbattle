@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>T</title>
+</head>
+<body>
+  <div class='top'>
+    <div class='frstBld'></div> 
+  </div>
+  <div class='mid'>
+    <div class='ringOfFire'><div class='iOfTigre'></div></div> 
+  </div>
+  <div class='bottom'>
+    <div class='twin'></div>
+    <div class='twin'></div>
+  </div>
+</body>
+</html>
+
+<style>
+  body{
+    background:#5A9F48;
+  }
+
+  .top{
+    padding-top:62px;
+    display:flex;
+    justify-content:center;
+  }
+
+  .frstBld{
+    height:80px;
+    width:200px;
+    background-color:#394257;
+  }
+
+  .mid{
+    display:flex;
+    justify-content:center;
+  }
+
+  .ringOfFire{
+    background-color:#394257;
+    height:160px;
+    width:160px;
+    border-radius:70%;
+    margin-top:-80;
+    display:flex;
+    justify-content:center;
+  }
+
+  .iOfTigre{
+    background-color:#5A9F48;
+    height:100px;
+    width:100px;
+    border-radius:70%;
+    margin-top:30px;
+  }
+
+  .bottom{
+    display:flex;
+    justify-content:space-between;
+    width:85px;
+    margin-left:150
+  }
+
+  .twin{
+    background-color:#394257;
+    height:100px;
+    width:30px;
+    margin-top:-30px;
+  }
+
+  
+</style>
