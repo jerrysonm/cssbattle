@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+</head>
+<body>
+<div class='top'>
+  <div class='one'></div>
+</div>
+<div class='mid'>
+  <div class='two'></div>
+  <div class='three'></div>
+  <div class='four'></div>
+</div>
+<div class='bottom'>
+  <div class='five'></div>
+</div>
+</body>
+</html>
+
+<style>
+  body{
+    background:#436F9B;
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column;
+    padding-left:75px;
+  }
+
+  .top{
+    display:flex;
+    justify-content:center;
+    margin-top:52px;
+  }
+
+  .mid{
+    display:flex;
+    justify-content:space-between;
+    width:150px;
+    padding-left:30px
+  }
+
+  .bottom{
+    display:flex;
+    margin-top:20px;
+    margin-left:30px;
+  }
+
+  
+  .one{
+    background-color:#E38F66;
+    height:30px;
+    width:105px;
+  }
+
+  .two{
+    background-color:#E38F66;
+    height:30px;
+    width:30px;
+    margin-top:70px;
+  }
+
+  .three{
+    background-color:#E38F66;
+    height:80px;
+    width:30px;
+    margin-top:20
+  }
+
+  .four{
+    background-color:#E38F66;
+    height:30px;
+    width:30px;
+    margin-top:20px;
+    margin-right:-30
+  }
+
+  .five{
+    background-color:#E38F66;
+     height:30px;
+    width:105px;
+    
+  }
+
+</style>
+
