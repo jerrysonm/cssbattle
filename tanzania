@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+</head>
+<body>
+  <div class='yllw'><div class='blk'></div></div>
+</body>
+</html>
+
+<style>
+  body{
+    background:linear-gradient(-35deg,#3B66B0 50%, #14A84A 50%);
+    display:flex;
+    justify-content:center;
+    position:absolute;
+  }
+
+  .yllw{
+    height:1000px;
+    width:140px;
+    background-color:#F8CD1E;
+    transform: rotate(59.5deg);
+    margin-top:-280px;
+    display:flex;
+    justify-content:center;
+  }
+
+  .blk{
+    height:1000px;
+    width:100px;
+    background-color:#000000;
+  }
+</style>
