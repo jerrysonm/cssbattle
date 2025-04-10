@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+</head>
+<body>
+
+<div class='everest'>
+  <div class='kili'>
+    <div class='helen'></div>
+  </div>
+</div>
+
+</body>
+</html>
+
+<style>
+ body{
+   background:#73C6EA;
+   display:flex;
+   justify-content:center;
+ }
+  
+.everest{
+  height:55px;
+  width:0px;
+  border-left:125px solid transparent;
+  border-right:125px solid transparent;
+  border-bottom:175px solid #0D1335;
+  display:flex;
+  justify-content:center;
+}
+
+.kili{
+  height:90px;
+  width:0px;
+  border-left:125px solid transparent;
+  border-right:125px solid transparent;
+  border-bottom:140PX solid #DC6638;
+  display:flex;
+  justify-content:center;
+}
+
+.helen{
+  height:130px;
+  border-left:125px solid transparent;
+  border-right:125px solid transparent;
+  border-bottom:100px solid #FBFAE2;
+}
+</style>
