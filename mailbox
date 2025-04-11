@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+</head>
+<body>
+  <div class='bruce'>
+  <div class='mailbox'><div class='mailShad'></div></div>
+</div>
+<div class='bottom'>
+  <div class='leg'><div class='legShad'></div></div>
+</div>
+</body>
+</html>
+
+<style>
+  body{
+    background:#A4C5BD;
+    margin-top:20px;
+  }
+
+  .bruce{
+    height:200px;
+    display:flex;
+    justify-content:center;
+    margin-top:15px;
+  }
+
+  .bottom{
+    display:flex;
+    justify-content:center;
+    margin-left:100
+  }
+
+  .mailbox{
+    background:#D96C7B;
+    height:140px;
+    width:190px;
+    border-top-right-radius:50px;
+    border-top-left-radius:50px;
+    margin-top:60px;
+
+  }
+
+  .mailShad{
+    height:140px;
+    width:100px;
+    background:#8D424D;
+    border-top-right-radius:60px;
+    border-top-left-radius:60px;
+  }
+
+  .leg{
+    height:140px;
+    width:30px;
+    background:#D96C7B
+  }
+
+  .legShad{
+    height:140px;
+    width:10px;
+    background:#8D424D;
+  }
+
+  
+</style>
