@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+</head>
+<body>
+  <div class='container'>
+  <div class='twins'>
+    <div class='thing1'>
+      <div class='aubrey'>
+        <div class='drake'></div>
+      </div>
+    </div>
+    <div class='container2'>
+      <div class='sqr'></div>
+    </div>
+    <div class='thing2'>
+      <div class='aubrey'>
+        <div class='drake'></div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
+<style>
+  body{
+    background:#191919;
+    display:flex;
+    justify-content:center;
+    margin-top:70px;
+    margin-right:95px;
+  }
+
+  .twins{
+    display:flex;
+    justify-content:space-evenly;
+    width:300px;
+    margin-left:110px;
+  }
+
+  .container{
+  
+  }
+
+  .sqr{
+    height:50px;
+    width:50px;
+    background:#E08027;
+    transform:rotate(45deg);
+    margin-top:90px;
+    margin-right:20px
+  }
+
+  .thing1{
+    height:110px;
+    width:110px;
+    background:#E08027;
+    margin-top:10px;
+    border-top-right-radius:50%;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+    margin-right:130px;
+    position:absolute;
+    display:flex;
+    justify-content:center;
+  }
+
+  .thing2{
+    height:110px;
+    width:110px;
+    background:#E08027;
+    margin-bottom:-20px;
+    border-top-left-radius:50%;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+    border-style:solid;
+    border-width:10px;
+    border-color:#191919;
+    position:absolute;
+    margin-left:80px;
+    display:flex;
+    justify-content:center;
+  }
+
+  .aubrey{
+    height:90px;
+    width:90px;
+    background:#191919;
+    margin-top:10px;
+    border-radius:70%;
+    display:flex;
+    justify-content:center;
+  }
+
+  .drake{
+    height:50px;
+    width:50px;
+    background:#E08027;
+    border-radius:70%;
+    margin-top:20px;
+  }
+</style>
+
