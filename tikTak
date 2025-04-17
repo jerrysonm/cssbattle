@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <div class='first'>
+  <div class='slime'></div>
+  <div class='slime2'></div>
+</div>
+<div class='mid'>
+  <div class='solo'></div>
+</div>
+<div class='third'>
+  <div class='twin'></div>
+  <div class='twin2'></div>
+</div>
+</body>
+</html>
+
+<style>
+  body{
+    background:#191919;
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column;
+  }
+
+  .first{
+    display:flex;
+    justify-content:space-evenly;
+    width:75%;
+    margin-top:45px;
+    margin-left:50px;
+  }
+
+  .mid{
+    display:flex;
+    justify-content:center;
+    width:100%;
+    margin-top:-10px;
+    margin-left:2px;
+  }
+
+  .third{
+    display:flex;
+    justify-content:space-evenly;
+    width:75%;
+    margin-left:50px;
+    margin-top:-10px;
+  }
+
+  .slime{
+    height:50px;
+    width:50px;
+    border-style:solid;
+    border-width:10px;
+    border-color:#5DBCF9;
+    border-top-left-radius:40px;
+    border-top-right-radius:40px;
+    border-bottom-left-radius:40px;
+  }
+
+  .slime2{
+    height:50px;
+    width:50px;
+    border-style:solid;
+    border-width:10px;
+    border-color:#5DBCF9;
+    border-top-left-radius:40px;
+    border-top-right-radius:40px;
+    border-bottom-right-radius:40px;
+  }
+
+  .solo{
+    height:50px;
+    width:50px;
+    border-style:solid;
+    border-width:10px;
+    border-color:#5DBCF9;
+  }
+
+  .twin{
+    height:50px;
+    width:50px;
+    border-style:solid;
+    border-width:10px;
+    border-color:#5DBCF9;
+    border-top-left-radius:40px;
+    border-bottom-right-radius:40px;
+    border-bottom-left-radius:40px;
+  }
+
+  .twin2{
+    height:50px;
+    width:50px;
+    border-style:solid;
+    border-width:10px;
+    border-color:#5DBCF9;
+    border-bottom-left-radius:40px;
+    border-top-right-radius:40px;
+    border-bottom-right-radius:40px;
+  }
+
+</style>
+
