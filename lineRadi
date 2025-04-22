@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+</head>
+<body>
+  <div class='top'>
+  <div class='lUno'></div>
+  <div class='lDos'></div>
+  <div class='cir'></div>
+  <div class='lTres'></div>
+  <div class='lQu'></div>
+</div>
+</body>
+</html>
+
+<style>
+  body{
+    background:#4C455B;
+    margin-top:30px;
+    
+  }
+
+  .lUno{
+    height:60px;
+    width:120px;
+    background:#D96C7B;
+    margin-left:-10
+  }
+
+  .lDos{
+    height:60px;
+    width:60px;
+    background:#D96C7B;
+    margin-left:50;
+  }
+
+  .cir{
+    height:160px;
+    width:160px;
+    border-radius:70%;
+    background:linear-gradient(
+      to bottom,
+      #D96C7B 50%,
+      #8AB8B6 50%
+    );
+    margin-left:110px;
+    margin-top:-80px; 
+  }
+
+  .lTres{
+    height:60px;
+    width:60px;
+    background:#8AB8B6;
+    margin-left:270px;
+    margin-top:-80px; 
+  }
+
+  .lQu{
+    height:60px;
+    width:150px;
+    background:#8AB8B6;
+    margin-left:270px;
+  }
+</style>
