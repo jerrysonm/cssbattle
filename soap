@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+</head>
+<body>
+  <div class='soapDish'>
+  <div class='head'></div>
+  <div class='neck'></div>
+  <div class='chest'></div>
+  <div class='dadBod'><div class='soap'></div></div>
+</div>
+<div class='face'>
+<div class='mouth'></div>
+<div class='drip'></div>
+<div class='drip'></div>
+</div>
+<style>
+</body>
+</html>
+
+<style>
+  body{
+  background:#1A4341;
+  display:flex;
+  justify-content:center;
+  margin-top:50px;
+  }
+
+  .soapDish{
+    margin-left:50px;
+    
+  }
+
+  .head{
+    height:20px;
+    width:150px;
+    background:#F3AC3C;
+    border-top-left-radius:50px;
+    border-top-right-radius:50px;
+    border-bottom-left-radius:50px;
+  }
+
+  .neck{
+    height:20px;
+    width:20px;
+    background:#F3AC3C;
+    margin-left:40px;
+  }
+  .chest{
+    height:20px;
+    width:50px;
+    background:#F3AC3C;
+    margin-left:25px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+  }
+
+  .dadBod{
+    height:140px;
+    width:100px;
+    background:#F3AC3C;
+    border-radius:20px;
+    position:absolute;
+  }
+
+  .soap{
+    border-radius: 0% 0% 20px 20px;
+    background:#998235;
+    width:100px;
+    height:95px;
+    margin-top:45px;
+  }
+
+  .mouth{
+    height:20px;
+    width:20px;
+    background:#F3AC3C;
+    margin-top:20px;
+    margin-left:-20px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+  }
+
+  .drip{
+    height:20px;
+    width:20px;
+    background:#998235;
+    margin-top:10px;
+    border-radius:70%;
+    margin-left:-20px;
+  }
+
+</style>
+
