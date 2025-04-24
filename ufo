@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+</head>
+<body>
+  <div class='top'><div class='glare'></div></div>
+<div class='bottom'> 
+  <div class='redDot'></div> 
+  <div class='redDot'></div> 
+  <div class='redDot'></div> 
+</div>
+</body>
+</html>
+
+
+<style>
+  body{
+    background:#2F434E;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    margin-top:90px;
+    margin-left:120px;
+  }
+
+  .top{
+    height:90px;
+    width:160px;
+    background:#E25C57;
+    border-top-left-radius:70px;
+    border-top-right-radius:70px;
+    display:flex;
+    justify-content:center;
+  }
+
+  .glare{
+    border-radius: 0% 20px 0px 0px;
+    background:white;
+    width:10px;
+    height:15px;
+    margin-top:55px;
+    margin-left:140px;
+    
+  }
+
+  .bottom{
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid #F3AC3C; 
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent; 
+    width:160px;
+    margin-top:-15px;
+    margin-left:-50px;
+    display:flex;
+    justify-content:space-around;
+  }
+
+  .redDot{
+    width: 20px;
+    height: 20px;
+    background:#E25C57;
+    margin-top:20px;
+    border-radius:70%;
+  }
+</style>
+
