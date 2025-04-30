@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<div class='valid'>
+  <div class='check'>
+    <div class='uno'></div>
+    <div class='dos'></div>
+  </div>
+</div>
+</body>
+</html>
+
+<style>
+  body{
+    display:flex;
+    justify-content:center;
+    margin-top:30px;
+  }
+
+  .check{
+    display:flex;
+    justify-content:center;
+    margin-top:110px;
+    margin-left:45px;
+    transform:rotate(-45deg);
+  }
+  
+  .valid{
+    height:240px;
+    width:240px;
+    border-radius:70%;
+    background:#5A9F48;
+  }
+
+  .uno{
+    height:70px;
+    width:40px;
+    background:#FFFFFF;
+  }
+
+  .dos{
+    height:40px;
+    width:110px;
+    background:#FFFFFF;
+    margin-top:30px;
+    margin-left:-10px;
+  }
+</style>
+
