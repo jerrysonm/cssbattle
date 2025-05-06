@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+</head>
+<body>
+<div class='c'></div>
+<div class='b'></div>
+<div class='a'></div>
+<div class='b'></div>
+<div class='c'></div>
+</body>
+</html>
+
+<style>
+  body{
+    background:linear-gradient(#EBF6F0 77%,#4E4B44 1%);
+    display:flex;
+    justify-content:space-evenly;
+    margin-left:20px;
+    margin-right:20px;
+  }
+
+  .a{
+    height:80px;
+    width:80px;
+    background-color:#4A9A86;
+    border-radius:70%;
+    margin-top:185px;
+  }
+
+  .b{
+    height:60px;
+    width:60px;
+    background-color:#4A9A86;
+    border-radius:70%;
+    margin-top:195px;
+  }
+
+  .c{
+    height:40px;
+    width:40px;
+    background-color:#4A9A86;
+    border-radius:70%;
+    margin-top:205px;
+  }
+</style>
+
