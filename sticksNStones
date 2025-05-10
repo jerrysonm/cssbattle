@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+</head>
+<body>
+<div class='top'>
+  <div class='stick'></div>
+  <div class='cir'></div>
+  <div class='stick'></div>
+  <div class='cir'></div>
+  <div class='stick'></div>
+</div>
+<div class='hori'></div>
+</body>
+</html>
+
+<style>
+  body{
+    background:#594C94;
+    margin-top:70px;
+  }
+
+  .top{
+    display:flex;
+    justify-content:center;
+    margin-right:20px;
+  }
+
+  .stick{
+    height:100px;
+    width:40px;
+    background:#F9DDC6;
+    margin-left:20px;
+    
+  }
+
+  .cir{
+    height:60px;
+    width:60px;
+    background:#F9DDC6;
+    border-radius:70%;
+    margin-left:20px;
+  }
+
+  .hori{
+    height:40px;
+    width:320px;
+    background:#F9DDC6;
+    margin-top:20px;
+    margin-left:32px;
+  }
+</style>
