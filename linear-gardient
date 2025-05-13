@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+</head>
+<body>
+<div class='box1'>
+  <div class='box2'></div>
+</div>
+</body>
+</html>
+
+<style>
+  body{
+    background:linear-gradient(to right,#4C6B50 50%, #F7EC7D 50% );
+    display:flex;
+    justify-content:center;
+  }
+
+  .box1{
+    margin-top:52px;
+    height:180px;
+    width:280px;
+    background:linear-gradient(to right, #F7EC7D 50%, #4C6B50 50%);
+    display:flex;
+    justify-content:center;
+  }
+
+  .box2{
+    margin-top:60px;
+    height:60px;
+    width:160px;
+    background:linear-gradient(to right, #4C6B50 50%, #F7EC7D 50%);
+  }
+</style>
